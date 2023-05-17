@@ -17,4 +17,4 @@ ggplot(df, aes(x = tempo, color = Variaveis)) +
 
 Observando o gráfico produzido pela chamada a `ggplot`, podemos notar que a duração mediana do desemprego em semanas (`ddsemp`) tem estagnado até ao final da década de 2000 onde aumentou drasticamente e tem descido num bom ritmo desde esse aumento drástico. A taxa de poupança pessoal (`tpp`) estave numa descrescente até ao final da década de 2000, conseguindo ver um aumento bastante significativo e que após esse aumento tem estagnado.
 
-<img src="./exercicio1.png" alt="Gráfico Resultante" width="450" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="./exercicio1.png" alt="Gráfico Resultante" width="650" style="display: block; margin-left: auto; margin-right: auto;">

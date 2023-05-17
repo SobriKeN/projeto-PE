@@ -12,7 +12,6 @@ ggplot(df_total, aes(x = Ocupação, y = Tempo)) +
   y = "Tempo médio diário (minutos)") +
   theme_bw()
 ```
+Após este excerto de código, é devolvido este gráfico:
 
-Consgeuimos perceber 
-
-<img src="./exercicio2.png" alt="Gráfico Resultante" width="450" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="./exercicio2.png" alt="Gráfico Resultante" width="575" style="display: block; margin-left: auto; margin-right: auto;">
