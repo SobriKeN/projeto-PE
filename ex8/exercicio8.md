@@ -26,6 +26,6 @@ ggplot() +
   theme_minimal() +
   guides(color = guide_legend(title = "Variáveis"))
 ```
-Com isto, obtemos este gráfico: <img src="./exercicio8.png" alt="Gráfico Resultante" width="540" style="display: block; margin-left: auto; margin-right: auto;">
+Com isto, obtemos este gráfico (a bissetriz é a linha preta tracejada): <img src="./exercicio8.png" alt="Gráfico Resultante" width="540" style="display: block; margin-left: auto; margin-right: auto;">
 
 
