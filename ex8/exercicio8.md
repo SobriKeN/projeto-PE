@@ -17,15 +17,15 @@ quantis <- (1:n)/(n + 1)
 dados_cauchy <- data.frame(Quantil = quantis, Valor = amostra_ordenada_cauchy)
 dados_normal <- data.frame(Quantil = quantis, Valor = amostra_ordenada_normal)
 
-ggplot() +
-  geom_line(data = dados_cauchy, aes(x = Quantil, y = Valor, color = "Cauchy"), linetype = "solid") +
-  geom_line(data = dados_normal, aes(x = Quantil, y = Valor, color = "Normal"), linetype = "solid") +
-  geom_abline(intercept = 0, slope = 1, linetype = "dashed") +
-  labs(x = "Quantis de Probabilidade", y = "Valores Ordenados", 
-       title = "Amostras de Cauchy e Normal") +
-  theme_minimal() +
-  guides(color = guide_legend(title = "Variáveis"))
+> ggplot() +
+    geom_point(data = dados_cauchy, aes(x = Quantil, y = Valor, color = "Cauchy")) +
+    geom_point(data = dados_normal, aes(x = Quantil, y = Valor, color = "Normal")) +
+    geom_abline(intercept = 0, slope = 1, linetype = "dashed") +
+    labs(x = "Quantis de Probabilidade", y = "Valores Ordenados", 
+          title = "Amostras de Cauchy e Normal") +
+    theme_minimal() +
+    guides(color = guide_legend(title = "Variáveis"))
 ```
-Com isto, obtemos este gráfico (a bissetriz é a linha preta tracejada): <img src="./exercicio8.png" alt="Gráfico Resultante" width="540" style="display: block; margin-left: auto; margin-right: auto;">
+Com isto, obtemos este gráfico (a bissetriz é a linha preta tracejada): <img src="./exercicio8.png" alt="Gráfico Resultante" width="530" style="display: block; margin-left: auto; margin-right: auto;">
 
 
